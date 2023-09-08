@@ -11,12 +11,22 @@
 
 #item {
   margin-left: 50px;
+  max-width: 210px;
+  i {
+    color: darkgrey;
+  }
 }
 
 .container__row2 {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  p {
+    a {
+      padding: 10px;
+      font-size: 10px;
+    }
+  }
 }
 
 .col {
@@ -32,7 +42,7 @@
   color: black;
 }
 
-.col:nth-child(2) .item {
+.col .item {
   border: 1px solid;
   border-radius: 999px;
   padding: 5px;

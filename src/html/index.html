@@ -36,6 +36,10 @@
     />
 
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
   </head>
 
   <body class="home__page">
@@ -45,10 +49,10 @@
           <div class="info">
             <ul class="nav__info">
               <li>
-                <a href="#"><i class="bx bxs-sushi"></i>Credentials</a>
+                <a href="#"><i class='bx bxs-medal'></i></i>Credentials</a>
               </li>
               <li>
-                <a href="#"><i class="bx bxs-speaker"></i>Tuyển dụng</a>
+                <a href="#"><i class='bx bxs-briefcase'></i>Tuyển dụng</a>
               </li>
               <li>
                 <a href="#"><i class='bx bx-map'></i></i>Liên hệ</a>
@@ -57,26 +61,23 @@
                 <a href="#"><i class="bx bxs-phone"></i>(028) 39506618</a>
               </li>
               <li>
-                <a href="#"><i class="bx bxs-badge-dollar"></i>VN</a
+                <a href="#"><i class='bx bx-globe'></i></i>VN</a
                 ><i class="bx bx-chevron-down"></i>
               </li>
               <li>
-                <a href="#"><i class="bx bx-search"></i></a>
+                <i class="bx bx-search"></i><input type="text">
               </li>
             </ul>
           </div>
           <nav class="navbar">
             <div class="container">
               <div class="nav__logo">
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPHRvtFUvNT9Rrpz2HE4gu05hPPg8m7DweCg&usqp=CAU"
-                  alt="pic"
-                />
+                <img src="../assets/img/logo.png" alt="logo">
               </div>
               <div class="nav__items">
                 <ul class="navbar__nav">
                   <li>
-                    <a href="#"><i class="bx bxs-home-alt-2"></i></a>
+                    <a href="#"><i class='bx bxs-home'></i></a>
                   </li>
                   <li><a href="#">Giới thiệu</a></li>
                   <li><a href="#">Lĩnh vực kinh doanh</a></li>
@@ -84,7 +85,7 @@
                   <li><a href="#">Quan hệ cổ đông</a></li>
                   <li><a href="#">Tin tức</a></li>
                   <li><a href="#">Hệ thống phân phối</a></li>
-                  <div class="btn">
+                  <div class="button">
                     <button class="btn btn--yellow">
                       <a href="#">MUA HÀNG ONLINE</a></button
                     ><button class="btn btn--black">
@@ -99,63 +100,78 @@
       </div>
     </header>
     <main>
-      <div class="background"></div>
+      <section class="background">
+        <div class="background-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide swiper-slide-1">
+              </div>
+              <div class="swiper-slide swiper-slide-2">
+              </div>
+              <div class="swiper-slide swiper-slide-3">
+              </div>
+            </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      </section>
     </main>
 
     <footer class="footer">
       <div class="footer__container">
         <div class="container__row1">
-          <div class="col1" id="item">
-            <h3>CÔNG TY CỔ PHẦN KIM TÍN</h3><br>
-            <span
+          <ul class="col1" id="item">
+            <li>CÔNG TY CỔ PHẦN KIM TÍN</li><br>
+            <li
               ><i class="bx bxs-edit-location"></i>Số 40 Ngô Gia Tự, Phường Đức
               Giang, Quận Long Biên, Hà Nội
-            </span><br>
-            <span><i class="bx bxs-phone"></i>(024) 3971 5156 </span><br>
-            <span
-              ><i class="bx bxs-edit-location"></i>(024) 3972 4818
-            </span>
-          </div>
-          <div class="col2" id="item">
-            <h3>CÔNG TY CỔ PHẦN KIM TÍN ĐÀ NẴNG</h3><br>
-            <span
+            </li><br>
+            <li><i class="bx bxs-phone"></i>(024) 3971 5156 </li><br>
+            <li
+              ><i class="bx bxs-printer"></i>(024) 3972 4818
+            </li>
+          </ul>
+          <ul class="col2" id="item">
+            <li>CÔNG TY CỔ PHẦN KIM TÍN ĐÀ NẴNG</li><br>
+            <li
               ><i class="bx bxs-edit-location"></i>Đường số 6 - KCN Hòa Khánh, Quận Liên Chiểu, TP.Đà Nẵng
-            </span><br>
-            <span><i class="bx bxs-phone"></i>(0236) 3725 583 </span><br>
-            <span
-              ><i class="bx bxs-edit-location"></i>(0236) 3730 147
-            </span>
-          </div>
-          <div class="col3" id="item">
-            <h3>CÔNG TY CỔ PHẦN TẬP ĐOÀN KIM TÍN</h3><br>
-            <span
-              ><i class="bx bxs-edit-location"></i>69 Nguyễn Thị, Phường 13, Quận 5, TP.Hồ Chí Minh
-            </span><br>
-            <span><i class="bx bxs-phone"></i>(028) 3950 6618 </span><br>
-            <span
-              ><i class="bx bxs-edit-location"></i>(028) 3950 6617
-            </span>
-          </div>
-          <div class="col4" id="item">
-            <h3>NHÃN HÀNG</h3><br>
-            <div class="logo"></div>
-          </div>
+            </li><br>
+            <li><i class="bx bxs-phone"></i>(0236) 3725 583 </li><br>
+            <li
+              ><i class="bx bxs-printer"></i>(0236) 3730 147
+            </li>
+          </ul>
+          <ul class="col3" id="item">
+            <li>CÔNG TY CỔ PHẦN TẬP ĐOÀN KIM TÍN</li><br>
+            <li
+              ><i class="bx bxs-edit-location"></i>69 Nguyễn Thi, Phường 13, Quận 5, TP.Hồ Chí Minh
+            </li><br>
+            <li><i class="bx bxs-phone"></i>(028) 3950 6618 </li><br>
+            <li
+              ><i class="bx bxs-printer"></i>(028) 3950 6617
+            </li>
+          </ul>
+          <ul class="col4" id="item">
+            <li>NHÃN HÀNG</li><br>
+            <li class="logo"></li>
+          </ul>
         </div>
         <div class="container__row2">
-          <div class="col">
+          <!-- <div class="col">
             <div class="item"><span>&#169; 2021 KIM TIN GROUP. Thiết kế web bởi Cánh Cam</span></div>
             <div class="item"><span><a href="#">Điều khoản & Điều kiện</a></span></div>
             <div class="item"><span><a href="#">Chính sách bảo mật</a></span></div>
-          </div>
-          <div class="col">
-            <div><a href="#"><i class='item bx bxl-twitter'></i></a></div>
-            <div><a href="#"><i class='item bx bxl-facebook'></i></a></div>
-            <div><a href="#"><i class='item bx bxl-youtube' ></i></a></div>
-            <div><a href="#"><i class='item bx bxl-instagram' ></i></a></div>
-          </div>
+          </div> -->
+          <p>&#169; 2021 KIM TIN GROUP. Thiết kế web bởi Cánh Cam<a href="#">Điều khoản & Điều kiện</a><a href="#">Chính sách bảo mật</a></p>
+          <ul class="col">
+            <li><a href="#"><i class='item bx bxl-twitter'></i></a></li>
+            <li><a href="#"><i class='item bx bxl-facebook'></i></a></li>
+            <li><a href="#"><i class='item bx bxl-youtube' ></i></a></li>
+            <li><a href="#"><i class='item bx bxl-instagram' ></i></a></li>
+          </ul>
         </div>
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="./assets/js/jquery.min.js"></script>
 
     <script type="text/javascript" src="./assets/js/main.js"></script>

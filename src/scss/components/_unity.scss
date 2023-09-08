@@ -2,6 +2,7 @@ a {
   text-decoration: none;
   line-height: 1;
   font-size: 12px;
+  color: black;
 }
 i {
   color: yellow;
@@ -9,4 +10,9 @@ i {
 .btn {
   padding: 8px;
   outline: none;
+  border: 0;
+  &:hover {
+    background: #c08686;
+    transition: 0.8s ease;
+  }
 }
