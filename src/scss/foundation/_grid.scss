@@ -1,6 +1,10 @@
 .container {
   width: 1440px;
-  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
 }
 .row {
   display: -ms-flexbox;

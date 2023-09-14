@@ -11,8 +11,12 @@ i {
   padding: 8px;
   outline: none;
   border: 0;
-  &:hover {
-    background: #c08686;
-    transition: 0.8s ease;
-  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-up {
+  text-transform: uppercase;
 }
